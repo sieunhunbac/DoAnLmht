@@ -1,0 +1,257 @@
+body
+{	margin: 0;
+	 font-family: 'Ropa Sans', sans-serif;
+}
+header
+{	
+	background-color: black;
+	overflow: hidden;
+	text-align: center;
+	border: 5px solid black;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+}
+.container
+{
+	border: 1px 	;
+	background-color: black;
+	height: 10px;
+	padding: 40px 0;
+	width: 100%;
+	overflow: hidden;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+a:hover
+{
+	background-color: #aaa89e;
+	border-radius: 20px;
+}
+ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+	padding: 10px;
+}
+li
+{
+	float: left;
+}
+li a, .dropbtn
+{	
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right:5px ;
+	box-shadow: 0 3px black;
+	transition: box-shadow 0.3s;
+
+}
+li a:hover, .dropdown:hover .dropbtn
+{
+	background-color: #3d3a3a;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 3px #45d3d3;
+	border-radius: 5px;
+}
+li.dropdown
+{
+	display: inline-block;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #4c4a4a;
+	min-width: 230px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a
+{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	border-radius: 10px;
+}
+.dropdown-content a:hover
+{
+	background-color: #45d3d3;
+	color: white;
+	border-radius: 10px;
+}
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+#dangnhap
+{
+	background-color: grey;
+	border-radius: 5px;
+}
+#choingay
+{
+	background-color: #45d3d3;
+	border-radius: 10px;
+	color: black;
+}
+
+.container1
+{
+	border: 1px solid ;
+	overflow: hidden;
+}
+.container5 
+{	
+	width: 100%;
+	border: 1px 	;
+	background-color: black;
+	height: 20px;
+	padding: 20px 0;
+	background-color: #45d3d3;
+}
+.container5 > a
+{
+		margin: 50px 0 0 0;
+}
+.container6
+{
+	height: 450px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+.trai 
+{	
+	margin-top: 100px;
+	width: 30%;
+	height: 100vh;
+	overflow: auto;
+	float: left;
+	position: fixed;
+}
+.trai h2
+{
+	color: white;
+	text-align: center;
+}
+
+.trai h3
+{	
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
+.trai h4
+{
+	text-align: center;
+	color: #a5a49f;
+}
+.trai::-webkit-scrollbar {
+  width: 12px;               /* Chiều rộng vùng chứa scrollbar */
+}
+.trai::-webkit-scrollbar-track {
+  background: #1d1e1e;        /* Màu nền ngoài của thanh scrollbar */
+}
+.trai::-webkit-scrollbar-thumb {
+  background-color: #143f3f;    /* Màu của thanh cuộn */
+  border-radius: 5px;       
+  border: 2px solid #0d2b2b; 
+}
+.trai1
+{
+	border: 1px solid white;
+	border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+.phai
+{	
+	margin-top: 100px;
+	float: right;
+	width: 69%;
+	margin-right: 7px;
+	overflow: auto;
+	height: 100;
+	background-color: #191919;
+	position: relative;
+}
+.phai1
+{
+	color: white;
+	border: 1px solid white;
+	border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    display: flex;
+}
+.phai1 img 
+{	
+	padding-top: 10px;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+}
+.phai1 h3
+{
+	margin-top: 35px;
+}
+.phai1 h4
+{
+	padding-left: 120px;
+	font-size: 25px;
+}
+.phai1 h5
+{	
+	color:  #a5a49f;
+	
+	font-size: 25px;
+	padding-left: 100px;
+}
+.phai1 a 
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+footer
+{
+	background-color: #3f3939;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* Chiều rộng vùng chứa scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #1d1e1e;        /* Màu nền ngoài của thanh scrollbar */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #143f3f;    /* Màu của thanh cuộn (scroll thumb) */
+  border-radius: 5px;       
+  border: 2px solid #0d2b2b; 
+}
+@media screen and (max-width: 768px)
+{
+	.phai 
+	{
+		width: 99%;
+	}
+}
